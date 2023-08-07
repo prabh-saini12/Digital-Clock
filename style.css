@@ -12,3 +12,14 @@ body {
   font-family: Orbitron;
   letter-spacing: 7px;
 }
+@media (max-width: 768px) {
+  #clock {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  #clock {
+    font-size: 60px;
+  }
+}
